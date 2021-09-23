@@ -15,17 +15,28 @@
         color: #ffffff;
         text-align: center;
         span {
+            margin-top: 10px;
             display: block;
             font-size: 18px;
             font-weight: 700;
+            line-height: 1.2;
         }
     }
     &__phone {
         display: block;
+        margin-bottom: 6px;
         font-size: 18px;
         line-height: 1.2;
         font-weight: 700;
         color: #ffffff;
-        text-decoration: none;
+        &:hover {
+            color: #ffffff;
+            text-decoration: none;
+        } 
+    }
+    &__contacts {
+        display: flex;
+        flex-direction: column;
+        align-items: flex-end;
     }
 }
