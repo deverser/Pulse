@@ -57,3 +57,12 @@
         }
     }
 }
+
+@media (max-width: 992px) {
+    .promo {
+        background: url(../img/promo_bg.jpg) left center/cover no-repeat;
+        &__wrapper {
+            align-items: center;
+        }
+    }
+}
