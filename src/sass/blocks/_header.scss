@@ -41,8 +41,21 @@
     }
 }
 
-@media (max-width: 992px) {
+@media (max-width: 991px) {
     .header {
         justify-content: space-around;
+    }
+}
+
+@media (max-width: 767px) {
+    .header {
+        flex-wrap: wrap;
+        &__official {
+            order: 3;
+            margin-top: 24px;
+        }
+        &__contacts {
+            order: 2;
+        }
     }
 }

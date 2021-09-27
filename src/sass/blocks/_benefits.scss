@@ -37,3 +37,12 @@
         }
     }
 }
+
+@media (max-width: 767px) {
+    .benefits {
+        padding: 35px 0;
+        &__wrapper {
+            flex-wrap: wrap;
+        }
+    }
+}
