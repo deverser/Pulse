@@ -59,3 +59,20 @@
         }
     }
 }
+
+@media (max-width: 575px) {
+    .header {
+        &__official {
+            margin-top: 17px;
+            order: 2;
+            span {
+                margin-top: 4px;
+                font-size: 16px;
+            }
+        }
+        &__contacts {
+            margin-top: 13px;
+            order: 3;
+        }
+    }
+}

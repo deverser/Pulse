@@ -46,3 +46,20 @@
         }
     }
 }
+
+@media (max-width: 575px) {
+    .benefits {
+        &__wrapper {
+            margin-top: 29px;
+        }
+        &__item {
+            height: 207px;
+        }
+        &__subheader {
+            margin-top: 20px;
+        }
+        &__descr {
+            margin-top: 10px;
+        }
+    }
+}
