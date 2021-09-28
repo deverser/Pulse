@@ -6,7 +6,7 @@
     &__wrapper {
         margin-top: 65px;
         display: flex;
-        justify-content: space-around;
+        justify-content: space-between;
     }
     &__item {
         max-width: 239px;
@@ -43,6 +43,7 @@
         padding: 35px 0;
         &__wrapper {
             flex-wrap: wrap;
+            justify-content: space-around;
         }
     }
 }
