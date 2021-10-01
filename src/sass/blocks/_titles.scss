@@ -19,3 +19,11 @@
         }
     }
 }
+
+@media (max-width: 575px) {
+    .title {
+        &_left {
+            font-size: 22px;
+        }
+    }
+}

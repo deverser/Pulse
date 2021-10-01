@@ -18,3 +18,21 @@
         }
     }
 }
+
+@media (max-width: 767px) {
+    .consultation {
+        padding: 50px 0;
+        &__descr {
+            margin-top: 50px;
+        }
+    }
+}
+
+@media (max-width: 575px) {
+    .consultation {
+        min-height: 587px;
+        &__descr {
+            font-size: 15px;
+        }
+    }
+}
