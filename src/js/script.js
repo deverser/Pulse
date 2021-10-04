@@ -4,8 +4,8 @@ $(document).ready(function(){
         autoplaySpeed: 2000,
         speed: 1500,
         //adaptiveHeight: true,
-        prevArrow: '<button type="button" class="slick-prev"><img src="../icons/chevron_left.png"></button>',
-        nextArrow: '<button type="button" class="slick-next"><img src="../icons/chevron_right.png"></button>',
+        prevArrow: '<button type="button" class="slick-prev"><img src="icons/chevron_left.png"></button>',
+        nextArrow: '<button type="button" class="slick-next"><img src="icons/chevron_right.png"></button>',
         responsive: [
             {
               breakpoint: 992,
