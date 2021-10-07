@@ -47,10 +47,13 @@
     rewind: false,
     responsive: {
       480: {
-        autoWidth: true
+        nav: true,
+        navPosition: "bottom"
       },
-      600: {
-        autoWidth: true
+      767: {
+        autoWidth: true,
+        nav: true,
+        navPosition: "bottom"
       },
       992: {
         items: 1
