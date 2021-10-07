@@ -1,11 +1,15 @@
 .carousel {
-    padding: 81px 0;
+    padding: 81px 20px;
     &__inner {
         position: relative;
         width: 750px;
         margin: 0 auto;
+        img {
+            display: block;
+            margin: 0 auto;
+        }
     }
-    .slick-prev, .slick-next {
+    /* .slick-prev, .slick-next {
         position: absolute;
         top: 50%;
         transform: translateY(-50%);
@@ -20,5 +24,43 @@
     .slick-next {
         left: auto;
         right: -66px;
+    } */
+    .prev, .next {
+        position: absolute;
+        top: 50%;
+        transform: translateY(-50%);
+        left: -66px;
+        border: none;
+        background-color: #fff;
+        img {
+            width: 31px;
+            height: 50px;
+        }
+    }
+    .next {
+        left: auto;
+        right: -66px;
+    } 
+}
+
+@media (max-width: 1070px) {
+    .carousel {
+        .prev, .next {
+            left: 0;
+        }
+        .next {
+            left: auto;
+            right: 0;
+        }
+    }
+}
+
+@media (max-width: 767px) {
+    .carousel {
+        &__inner {
+            img {
+                width: 100%;
+            }
+        }
     }
 }

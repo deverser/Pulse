@@ -1,4 +1,4 @@
-$(document).ready(function(){
+/* $(document).ready(function(){
     $('.carousel__inner').slick({
         autoplay: true,
         autoplaySpeed: 2000,
@@ -33,4 +33,35 @@ $(document).ready(function(){
             // instead of a settings object
           ]
     });
+  }); */
+
+  const slider = tns({
+    container: '.carousel__inner',
+    items: 1,
+    slideBy: 'page',
+    autoplay: true,
+    speed: 1000,
+    nav: false,
+    controls: false,
+    autoplayButtonOutput: false,
+    rewind: false,
+    responsive: {
+      480: {
+        autoWidth: true
+      },
+      600: {
+        autoWidth: true
+      },
+      992: {
+        items: 1
+      }
+    }
+  });
+
+  document.querySelector('.next').addEventListener('click', function () {
+    slider.goTo('next');
+  });
+
+  document.querySelector('.prev').addEventListener('click', function () {
+    slider.goTo('prev');
   });
