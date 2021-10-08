@@ -1,0 +1,19 @@
+.catalog {
+    padding-bottom: 100px;
+    &__tabs {
+        margin-top: 70px;
+        list-style-type: none;
+    }
+    &__tab {
+        width: 220px;
+        height: 50px;
+        border: 2px solid #d0d0d0;
+        font-size: 18px;
+        line-height: 48px;
+        font-weight: 500;
+        text-transform: uppercase;
+        color: #6b6b6b;
+        text-align: center;
+        text-transform: uppercase;
+    }
+}
