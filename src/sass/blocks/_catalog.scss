@@ -77,6 +77,7 @@
             font-size: 14px;
             font-weight: 500;
             text-decoration: underline;
+            text-transform: uppercase;
             color: $main-color;
             text-align: center;
             &:hover {
@@ -149,6 +150,22 @@
                     left: -14px;
                     top: 4px;
                 }
+            }
+        }
+        &__back {
+            position: absolute;
+            display: block;
+            bottom: 0;
+            left: 50%;
+            transform: translateX(calc(-50% - 19px));
+            font-size: 14px;
+            font-weight: 500;
+            text-decoration: underline;
+            text-transform: uppercase;
+            color: $main-color;
+            text-align: center;
+            &:hover {
+                color: $main-color;
             }
         }
     }
