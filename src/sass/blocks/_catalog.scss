@@ -173,3 +173,38 @@
         }
     }
 }
+
+
+@media(max-width: 991px) {
+    .catalog {
+        padding-bottom: 40px;
+        &__content {
+            justify-content: space-around;
+        }
+    }
+}
+
+@media(max-width: 767px) {
+    .catalog {
+        &__tab {
+            width: 170px;
+        }
+    }
+}
+
+@media(max-width: 575px) {
+    .catalog {
+        &__tabs {
+            margin-top: 35px;
+            flex-wrap: wrap;
+        }
+        &__tab {
+            margin-top: 8px;
+            width: 220px;
+            font-size: 15px;
+        }
+        &__content {
+            margin-top: 35px;
+        }
+    }
+}
