@@ -1,0 +1,35 @@
+.feedback {
+    padding-bottom: 71px;
+    &__wrapper {
+        margin-top: 70px;
+        display: flex;
+        flex-direction: column;
+        hr {
+            margin: 50px 0;
+            background-color: #f6f6f6;
+            border: none;
+            opacity: 1;
+        }
+    }
+    &__item {
+        display: flex;
+        justify-content: space-around;
+        align-items: flex-start;
+    }
+    &__descr {
+        width: 659px;
+    }
+    &__subtitle {
+        margin-top: 11px;
+        font-size: 14px;
+        font-weight: 300;
+        color: #646464;
+    }
+    &__content {
+        margin-top: 19px;
+        font-size: 16px;
+        line-height: 1.2;
+        font-weight: 300;
+        color: #0d0d0d;
+    }
+}
